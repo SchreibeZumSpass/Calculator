@@ -1,10 +1,15 @@
 package de.bakhytzhan.kata;
 
+import de.bakhytzhan.kata.config.Config;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Config.class);
 
         Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +17,7 @@ public class Main {
             System.out.print("Enter your expression in one line: ");
             String input = scanner.nextLine();
 
-            Calculator calculator = new Calculator(input);
+            Calculator calculator = applicationContext.getBean(Calculator.class, input);
 
             calculator.calculate();
 

@@ -1,9 +1,14 @@
 package de.bakhytzhan.kata;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Component
+@Scope("prototype")
 public class Calculator implements Validatable {
     private final int a;
     private final int b;
