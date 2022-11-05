@@ -21,6 +21,7 @@ List of supported operations:
 - Subtraction
 - Multiplication
 - Deletion
+
 Calculator supports input validation.<br>
 
 Requirements:
