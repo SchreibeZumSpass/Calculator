@@ -1,6 +1,6 @@
-package de.bakhytzhan.kata;
+package dev.bakhytzhan.calculator;
 
-import de.bakhytzhan.kata.config.Config;
+import dev.bakhytzhan.calculator.config.Config;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

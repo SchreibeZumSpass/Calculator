@@ -1,4 +1,4 @@
-package de.bakhytzhan.kata;
+package dev.bakhytzhan.calculator;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

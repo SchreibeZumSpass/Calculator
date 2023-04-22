@@ -1,9 +1,9 @@
-package de.bakhytzhan.kata.config;
+package dev.bakhytzhan.calculator.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "de.bakhytzhan.kata")
+@ComponentScan(basePackages = "dev.bakhytzhan.calculator")
 public class Config {
 }

@@ -1,4 +1,4 @@
-package de.bakhytzhan.kata;
+package dev.bakhytzhan.calculator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
