@@ -1,20 +1,20 @@
 # Calculator
 
-The project implements a calculator that works with roman and arabic numbers.
+Console calculator that provides basic arithmetic operations with roman and arabic numbers.
 
 ---
 
 ### Technologies
 
-- Java SE 19
+- Java SE 17
 - Maven
-- Spring Core
+- Spring
 
 ---
 
 ### Description
 
-Calculator continuously accepts console input and displays the output in corresponding number format on console.<br>
+Calculator continuously requests console input and displays the output on console keeping the same number format (Arabic or Roman).<br>
 
 List of supported operations:
 - Addition
@@ -22,16 +22,16 @@ List of supported operations:
 - Multiplication
 - Deletion
 
-Calculator supports input validation.<br>
+Calculator provides input format and value validation.<br>
 
 Requirements:
-- Numbers must be in range between 1 and 10 included
+- Numbers must be in range of 1 and 10 included
 - Numbers must be of the same type
-- Only two numbers must be the operands
+- Only two numbers must be the submitted to the calculator
 - Sign must be one of four basic operations (+ - * /)
-- Subtraction and division of roman numbers must be positive
+- Subtraction and division result of roman numbers must be positive
 
-In case of requirements violation, the application displays a console error message and exits.
+In case of requirement violation, the application throws a custom exception.
 
 ---
 
